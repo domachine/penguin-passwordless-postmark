@@ -1,0 +1,26 @@
+{
+  "name": "penguin-passwordless-postmark",
+  "version": "0.0.0",
+  "description": "Postmark integration for the penguin-passwordless middleware.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dominik Burgdörfer <db@domachine.de> (https://domachine.de/)",
+  "license": "MIT",
+  "dependencies": {
+    "postmark": "^1.3.1"
+  },
+  "devDependencies": {
+    "dotenv": "^4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/domachine/penguin-passwordless-postmark.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/domachine/penguin-passwordless-postmark/issues"
+  },
+  "homepage": "https://github.com/domachine/penguin-passwordless-postmark#readme"
+}
