@@ -20,6 +20,13 @@ module.exports = ({
 Access your account here:
 ${url}/auth/passwordless/login?token=${tokenToSend}&uid=${encodeURIComponent(uidToSend)}
 `
-    }, err => err ? callback(err) : callback())
+    },
+    function( err ) {
+      if ( err ) {
+        console.log(err)
+        callback( err )
+       }
+      else{ callback() }
+    })
   }
 }
