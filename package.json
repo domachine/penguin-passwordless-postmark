@@ -1,6 +1,6 @@
 {
   "name": "penguin-passwordless-postmark",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Postmark integration for the penguin-passwordless middleware.",
   "main": "index.js",
   "scripts": {
